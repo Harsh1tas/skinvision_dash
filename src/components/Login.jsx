@@ -51,7 +51,7 @@ const Login = () => {
     className="logo" 
     style={{ 
       width: "80px", /* Adjust size as needed */
-      marginBottom: "20px", /* Adds space below the logo */
+      marginBottom: "50px", /* Adds space below the logo */
       display: "block",
       margin: "0 auto" /* Centers the logo horizontally */
     }} 
