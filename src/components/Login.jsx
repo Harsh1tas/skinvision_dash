@@ -45,8 +45,25 @@ const Login = () => {
   return (
     <>
       <section className="container form-component">
-        <img src="/logo.png" alt="logo" className="logo" />
-        <h1 className="form-title">WELCOME TO SKINVISION</h1>
+       <img 
+    src="/logo.png" 
+    alt="logo" 
+    className="logo" 
+    style={{ 
+      width: "80px", /* Adjust size as needed */
+      marginBottom: "20px", /* Adds space below the logo */
+      display: "block",
+      margin: "0 auto" /* Centers the logo horizontally */
+    }} 
+  />         
+  <h1 
+    className="form-title" 
+    style={{ 
+      marginTop: "10px" /* Additional margin to enhance spacing */
+    }}
+  >
+    WELCOME TO SKINVISION
+  </h1>   
         <p>Only Admins Are Allowed To Access These Resources!</p>
         <form onSubmit={handleLogin}>
           <input
