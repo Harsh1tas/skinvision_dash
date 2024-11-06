@@ -50,7 +50,7 @@ const Login = () => {
     alt="logo" 
     className="logo" 
     style={{ 
-      width: "280px", /* Adjust size as needed */
+      width: "2000px", /* Adjust size as needed */
       marginBottom: "100px", /* Adds space below the logo */
       display: "block",
       margin: "0 auto" /* Centers the logo horizontally */
@@ -59,7 +59,7 @@ const Login = () => {
   <h1 
     className="form-title" 
     style={{ 
-      marginTop: "10px" /* Additional margin to enhance spacing */
+      marginTop: "50px" /* Additional margin to enhance spacing */
     }}
   >
     WELCOME TO SKINVISION
