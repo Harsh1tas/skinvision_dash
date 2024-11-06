@@ -64,7 +64,7 @@ const Login = () => {
   >
     WELCOME TO SKINVISION
   </h1>   
-        <p>Only Admins Are Allowed To Access These Resources!</p>
+        <p>Only Admins And Doctors Are Allowed To Access These Resources!</p>
         <form onSubmit={handleLogin}>
           <input
             type="text"
