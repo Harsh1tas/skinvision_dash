@@ -59,7 +59,7 @@ const Login = () => {
   <h1 
     className="form-title" 
     style={{ 
-      marginTop: "50px" /* Additional margin to enhance spacing */
+      marginTop: "100px" /* Additional margin to enhance spacing */
     }}
   >
     WELCOME TO SKINVISION
